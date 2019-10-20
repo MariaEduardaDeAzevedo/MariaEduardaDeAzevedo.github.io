@@ -1,35 +1,36 @@
-h1 {
-    color: black;
+.my_name {
+    background-color: aqua;
+}
+
+.title_1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
+    font-weight: 10;
+    text-align: center;
+}
+
+.title_2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 10;
+    text-align: center;
 }
 
-h2 {
-    color: darkblue;
+.text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 10;  
+    text-align: center;
 }
 
-.subtitulo {
-    color: darkred;
+.topics {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    font: bold;
+    font-size: 25px;
+    font-weight: 10; 
 }
 
-span {
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
+img {
 
-.section {
-    font-weight: 300;
-    font-size: 2.5rem;
-    margin: 0;
-}
+    
 
-.section h2 {
-    font-weight: 100;
-    font-size: 2.5rem;
-    margin: 0;
 }
