@@ -36,3 +36,16 @@ img {
     width: 200px;
     height: 200px;
 }
+
+.icon {
+
+    max-width: 50px;
+    max-height: 50px; 
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
