@@ -1,129 +1,206 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
-    font-family: 'Concert One';
-    background-color: rgba(104, 104, 209, 0.911);
-    font-size: 20px;
-}
-
-header {
-    position: fixed;
-    background-color: white;
-    font-size: 20px;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 1360px;
-    vertical-align: auto;
-}
-
-img.perfil {
-    border-radius: 50%;
-    max-width: 275px;
-    max-height: 275px;
-    margin-top: -50px;
-}
-
-section {
-    border-radius: 20px;
-    background-color: white;
-    margin: auto;
-    margin-top: 100px;
-    padding: 80px;
-    width: 900px;
-    height: 300px;
-    border-color: rgb(245, 194, 26);
-    border-style: solid;
-}
-
-p.perfil {
-    font-size: 20px;
-    margin-top: -250px;
-    margin-left: 300px;
-    text-align: justify;
-}
-
-p {
-    font-size: 20px;
-    text-align: justify;
-}
-
-span#header {
-    text-decoration: none;
-    color: rgba(104, 104, 209, 0.911);
-    position: relative;
-    top: -20%;
-    text-align: center;
+    background-color: #0f0914;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
     text-decoration: none;
-    color:  rgb(245, 194, 26);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
 }
 
-img#icon {
-    height: 40px;
-    width: 40px;
-    position: relative;
-    top: 10%;
-    text-align: center;
-}
-
-h1#titulo {
-    font-size: 40px;
+menu {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #191021;
+    max-width: 300px;
+    position: fixed;
+    padding: 30px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
     margin-top: -10px;
-    text-align: center;
 }
 
-ul {
-    text-align: justify;
+menu ul li {
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    align-items: center;
 }
 
-img#img {
-    height: 150px;
-    width: 150px;
+menu ul li img.icon {
+    width: 50px;
+    height: 50px;
 }
 
-@keyframes imagem {
-    from {
-        max-height: 80px;
-        max-width: 80px;
-    } to {
-        max-height: 90px;
-        max-width: 90px;
-    }
+menu div.social-media div.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-#img {
-    animation-name: imagem;    
-    box-shadow: 5px 5px 10px gray;
+menu div.social-media div.icons a img {
+    width: 60px;
+    height: 60px;
+}
+
+main {
+    padding: 30px;
+    margin-left: 400px;
+}
+
+main div#sobre {
+    background-color: #19102162;
+    padding: 48px;
+    border-radius: 8px;
+}
+
+main div#sobre div#hello {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+main div#sobre div#hello img {
     border-radius: 50%;
-    transition: all 0.4s ease-out;
-} 
-
-#img:hover {
-    cursor: pointer;
-    transform: translateY(-10px);
+    border-style: solid;
+    border-color: #ffffff;
+    max-width: 350px;
+    max-height: 350px;
 }
 
-.center {
-    align-content: center;
+main div#sobre div#hello div.title-text {
+    display: inline;
+    max-width: 400px;
 }
 
-table#imagens {
-    margin: auto;
-    margin-top: 100px;
+main div#sobre div#hello div.title-text h1 {
+    font-size: 64px;
 }
 
-footer {
-    margin-top: 90px;
-    text-align: center;
-    color: white;
-    opacity: 70%;
+main div#sobre div#hello div.title-text p {
+    font-size: 18px;
 }
 
-stop {
-    vertical-align: middle;
+main div#sobre div.text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    font-size: 17px;
+}
+
+main div#sobre div.text p {
+    margin-bottom: -10px;
+}
+
+main div#conquistas {
+    margin-top: 200px;
+    padding: 8px;
+}
+
+main div#conquistas h1 {
+   font-size: 64px;
+}
+
+main div#conquistas div.categorias {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+}
+
+main div#conquistas div.categorias div.categoria {
+    display: inline-block;
+    max-width: 400px;
+    background-color:#19102162;
+    padding: 12px;
+    border-radius: 8px; 
+}
+
+main div#conquistas div.categorias div.categoria ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main div#conquistas div.categorias div.categoria ul li {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+main div#conquistas div.categorias div.categoria ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+main div#ferramentas-linguagens {
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+main div#ferramentas-linguagens h1 {
+    font-size: 64px;
+}
+
+main div#ferramentas-linguagens div.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+main div#ferramentas-linguagens div.icons img {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 20px;
+}
+
+main div#ferramentas-linguagens div.icons h1 {
+    margin-left: 50px;
+    font-size: 150px;
+}
+main div#repositorios {
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+main div#repositorios h1 {
+    font-size: 64px;
+}
+
+main div#repositorios div.links {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+main div#repositorios a.link {
+    background-color:#19102162;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+main div#repositorios a.link img {
+    width: 50px;
+    height: 50px;
 }
