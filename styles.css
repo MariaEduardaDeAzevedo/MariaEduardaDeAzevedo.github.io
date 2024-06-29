@@ -1,306 +1,153 @@
-:root {
-    --purple: #5C17EB;
-    --blue: #00EBA8;
-    --orange: #EB4717;
-    --yellow: #EBDD0C;
+html {
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    display: flex;
-    margin: auto;
-    font-family: 'Share Tech Mono', monospace;
-    overflow: hidden;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(
+    315deg,
+    #e8ffff 3%,
+    #a6f6f1 38%,
+    #41aea9 68%,
+    #315c58 98%
+  ); */
 }
 
-header {
-    position: relative;
-    width: 100vw;
-    background-color: var(--orange);
-    height: 10vh;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: white;  
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }
 
-header nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.8rem;
-    margin-right: 1.8rem;
+.page-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: transparent;
 }
 
-header img {
-    max-width: 5vw;
+.page-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  padding: 0 12rem;
+  margin: auto;
 }
 
-header a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    color: white;
+.page-main h1 {
+  font-size: 64px;
 }
 
-main {
-    margin: auto;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 100vh;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
+.page-main p {
+  font-size: 20px;
+  text-align: justify;
 }
 
-main section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 98vw;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  cursor: pointer;
 }
 
-main section .titulo-secao {
-    color: var(--orange);
-    font-weight: bold;
-    font-size: 32px;
-    align-self: flex-start;
-    padding: 1rem;
-    margin-bottom: -1rem;
+.information {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
-main #sobre #sobre-conteudo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.8rem;
+.information-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.2s;
+  cursor: pointer;
+  font-size: 24px;
 }
 
-main #sobre #sobre-conteudo .caracteristica {
-    text-align: justify;
+.information-item:hover {
+  opacity: 70%;
 }
 
-main #sobre #sobre-conteudo .progresso {
-    width: 100%;
-    background-color: thistle;
-    height: 2vh;
-    border-radius: 0.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0.1rem 0.1rem 0.1rem 0rem;
+.information-item box-icon {
+  height: 32px;
+  width: 32px;
 }
 
-main #sobre #sobre-conteudo .progresso .porcentagem {
-    width: 100%;
-    background-color: var(--orange);
-    height: 2vh;
-    border-radius: 0.2rem;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.1rem;
+.btn {
+  width: 144px;
+  background-color: transparent !important;
+  color: black !important;
+  border: 1px solid black !important;
+  transition: 0.2s !important;
 }
 
-main .left,  main .right{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
-    align-self: center;
-    justify-self: center;
-    justify-content: center;
-    padding: 1rem;
+.btn:hover {
+  opacity: 70% !important;
 }
 
-main #habilidades .habilidades-conteudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+@media (max-width: 1080px) {
+  body {
+    overflow: auto;
+    /* background: linear-gradient(
+      270deg,
+      #e8ffff 3%,
+      #a6f6f1 38%,
+      #41aea9 68%,
+      #315c58 98%
+    ); */
+  }
 }
 
-main #habilidades .habilidade .img-habilidade {
-    max-width: 16vw;
+@media (max-width: 820px) {
+  .page-main {
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .presentation {
+    height: 100%;
+  }
 }
 
-main #habilidades .habilidade {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 50vw;
-    gap: 1rem;
+@media (max-width: 600px) {
+  .page-main {
+    padding: 0 8rem;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .presentation {
+    height: 100%;
+  }
 }
 
-main #projetos .github {
-    display: flex;
-    flex-direction: row;
-    border-style: solid;
-    border-width: 0.2rem;
-    border-radius: 0.4rem;
-    border-color: var(--orange);
-    max-width: 98vw;
-    align-self: center;
-    padding: 1rem;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10vw;
-}
+@media (max-width: 500px) {
+  .page-main {
+    padding: 2rem 2rem;
+    height: 100%;
+    flex-direction: column-reverse;
+    margin-bottom: 2rem;
+  }
 
-main #projetos .github #icone-github {
-    border-radius: 50%;
-    max-width: 16vw;
-    border-style: solid;
-    border-color: var(--orange);
-}
-
-main #projetos .github .conteudo-github {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 0.8rem;
-}
-
-main #projetos .github .conteudo-github span {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 20px;
-}
-
-main #projetos .github .conteudo-github span b {
-    color: var(--orange);
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.8rem;
-    max-width: 24vh;
-}
-
-main #projetos .github .conteudo-github span a {
-    color: black;
-    text-decoration: none;
-}
-
-main #projetos .github .conteudo-github span a:hover {
-    color: var(--purple);
-    transition: 0.5s;
-    transform: translateY(-0.2rem);
-}
-
-main footer {
-    display: flex;
-    padding: 1rem;
-    height: 10vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: space-around;
-}
-
-main footer a {
-    text-decoration: none;
-    color: var(--orange);
-    font-weight: bold;
-}
-
-main #projetos .projetos-conteudo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.8rem;
-    overflow-x: hidden;
-    max-width: 98vw;
-}
-
-main #projetos .projetos-conteudo .projeto {
-    display: flex;
-    flex-direction: column;
-    border-style: solid;
-    border-radius: 0.4rem;
-    border-color: var(--orange);
-    padding: 0.8rem;
-    max-width: 18vw;
-    justify-content: space-between;
-    height: 40vh;
-}
-
-main #projetos .projetos-conteudo .projeto h2 {
-    color: var(--orange);
-}
-
-main #projetos .projetos-conteudo .projeto p {
-    text-align: justify;
-}
-
-main #projetos .projetos-conteudo .projeto a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 16vw;
-    background-color: var(--orange);
-    padding: 0.8rem;
-    border-radius: 0.2rem;
-    color: white;
-    font-weight: bold;
-    align-items: center;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-main #projetos .projetos-conteudo .projeto a:hover {
-    opacity: 0.8;
-}
-
-
-main #contato .contato-conteudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.8rem;
-}
-
-main #contato .contato-conteudo .contato {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.8rem;
-}
-
-main #contato .contato-conteudo .contato .contato-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    background-color: var(--orange);
-    padding: 0.8rem;
-    border-radius: 0.2rem;
-    cursor: pointer;
-    width: 8vw;
-    text-decoration: none;
-}
-
-
-.em-breve {
-    padding: 1rem;
-    align-self: center;
+  .presentation {
+    height: 100%;
+    margin-bottom: 2rem;
+  }
 }

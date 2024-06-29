@@ -1,0 +1,134 @@
+{
+  "general_information": {
+    "name": "Maria Eduarda de Azevedo Silva",
+    "ocupation": "Graduada em Ciência da Computação",
+    "contact": [
+      {
+        "title": "Email principal",
+        "content": "maria.silva@ccc.ufcg.edu.br",
+        "label": null,
+        "type": "email"
+      },
+      {
+        "title": "Email secundário",
+        "content": "maria.eduarda.azevedo.ufcg@gmail.com",
+        "label": null,
+        "type": "email"
+      },
+      {
+        "title": "LinkedIn",
+        "content": "https://www.linkedin.com/in/mariaeduardadeazevedo/",
+        "label": "/mariaeduardadeazevedo",
+        "type": "link"
+      },
+      {
+        "title": "GitHub",
+        "content": "https://github.com/MariaEduardaDeAzevedo",
+        "label": "/MariaEduardaDeAzevedo",
+        "type": "link"
+      },
+      {
+        "title": "Histórico Acadêmico",
+        "content": "https://drive.google.com/file/d/13ziW3k6pCrWwcukjmFe5JzAXa42oksYi/view?usp=sharing",
+        "label": "Link de acesso",
+        "type": "link"
+      }
+    ]
+  },
+  "experience": {
+    "introduction": "Graduada em Ciência da Computação pela Universidade Federal de Campina Grande, com forte interesse nas áreas de Desenvolvimento, Engenharia de Software, Ciência de Dados e Inteligência Artificial. Apresenta experiência profissional como desenvolvedora em diversos Projetos de Pesquisa, Desenvolvimento e Inovação, em parceria com grandes multinacionais e startups inovadoras, desde o terceiro período da graduação. Além disso, possui um currículo acadêmico robusto, focado no estudo da Ciência de Dados e da Inteligência Artificial, com interesse particular na pesquisa em Inteligência Artificial integrada ao desenvolvimento de Sistemas Inteligentes. Além disso, tem profunda paixão e interesse no uso da tecnologia da informação como peça de transformação social, tendo voltado recentes interesses no uso da Inteligência Artificial na melhoria de aspectos de acessibilidade.",
+    "programming_languages": ["Python", "Java", "JavaScript", "TypeScript"],
+    "web_technologies": [
+      "HTML",
+      "CSS",
+      "React",
+      "React Native",
+      "Angular",
+      "Spring Boot",
+      "Flask",
+      "FastAPI"
+    ],
+    "data_technologies": [
+      "Pandas",
+      "OpenCV",
+      "ScikitLearn",
+      "Tensorflow",
+      "Keras",
+      "HuggingFaces"
+    ],
+    "other_technologies": ["D3.js", "RegEx"],
+    "jobs": [
+      {
+        "title": "Pesquisadora em Análise de Dados de consumo energético",
+        "company": "Laboratório de Sistemas Distribuídos - LSD",
+        "description": "Projeto de Pesquisa e Desenvolvimento em parceria com empresa privada do setor energético, visando desenvolver métodos de análise de dados de consumo de energia elétrica monitorado por uma smart grid. O projeto proporcionou o desenvolvimento de habilidades de análise de dados reais, capazes de proporcionar importantes tomadas de decisão.",
+        "time": {
+          "from": "Janeiro 2021",
+          "to": "Junho 2021"
+        }
+      },
+      {
+        "title": "Desenvolvedora full-stack em Projeto de Pesquisa e Desenvolvimento",
+        "company": "Virtus - UFCG",
+        "description": "Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com multinacional, visando desenvolver um produto inovador. Neste projeto foram exploradas multiplas habilidades, dentre elas Desenvolvimento Web (frontend e backend), Arquitetura de Sistemas, Processamento de Arquivos e Imagens e Programação Concorrente.",
+        "time": {
+          "from": "Junho 2021",
+          "to": "Junho 2023"
+        }
+      },
+      {
+        "title": "Desenvolvedora IA e full-stack em Projeto de Pesquisa e Desenvolvimento",
+        "company": "Laboratório de Computação Inteligente Aplicada - LACINA",
+        "description": "Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com multinacional do setor de produtos e serviços em tecnologia, com o objetico de desenvolver solução interna para o setor de vendas. O projeto proporcionou explorar habilidades voltadas para Processamento de Arquivos PDF e Imagens, explorando técnicas de Processamento de Imagens e Textos com uso de modelos de Inteligência Artificial e Expressões Regulares. Além disso, houve o desenvolvimento ponta-à-ponta de uma Aplicação Web (frontend e backend) de uso interno, integrando a solução atingida.",
+        "time": {
+          "from": "Junho 2023",
+          "to": "Maio 2024"
+        }
+      },
+      {
+        "title": "Desenvolvedora frontend em Projeto de Pesquisa e Desenvolvimento",
+        "company": "Laboratório de Computação Inteligente Aplicada - LACINA",
+        "description": "Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com startup brasileira atuante no setor fiscal. O projeto visa o desenvolvimento de uma Interface Web complexa e interativa para montagem de grafos e diagramas de processamento de dados em abordagem low code.",
+        "time": {
+          "from": "Maio 2024",
+          "to": "Atualmente"
+        }
+      }
+    ],
+    "other_experiences": [
+      {
+        "title": "Detector de Máscaras",
+        "situation": "Projeto pessoal",
+        "description": "Na urgência da pandemia, uni o meu entusiasmo com a Visão Computacional e o contexto vivido para o desenvolvimento de uma solução simples, utilizando Machine Learning, para a detecção de faces utilizando máscaras.",
+        "reference": {
+          "title": "Postagem no LinkedIn",
+          "link": "https://www.linkedin.com/posts/mariaeduardadeazevedo_uni-meus-estudos-em-machine-learning-com-activity-6759801235093676032-MlVu?utm_source=share&utm_medium=member_desktop"
+        }
+      },
+      {
+        "title": "ZoIA - Projeto desenvolvido como Trabalho de Conclusão de Curso",
+        "situation": "Trabalho de Conclusão de Curso",
+        "description": "Inspirada por aulas relacionadas ao estado da arte da Inteligência Artificial e também disciplinas ligadas ao Desenvolvimento Web, propus o ZoIA como uma solução para mitigar problemas relacionados à acessibilidade para pessoas com deficiência visual na web. A aplicação compreende uma extensão para navegadores capaz de gerar e injetar descrições automáticas para imagens em páginas web. A arquitetura do ZoIA foi pensada para atender a quesitos como o self-hosting, com a finalidade de apresentar potencial papel social.",
+        "reference": {
+          "title": "Repositório no GitHub",
+          "link": "https://github.com/MariaEduardaDeAzevedo/ZoIA"
+        }
+      },
+      {
+        "title": "Vencedora da Competição 3MT na Semana Acadêmica de Ciência da Computação",
+        "situation": "Semana Acadêmica de Ciência da Computação - SACC",
+        "description": "Pude colocar à prova minhas habilidades de comunicação na competição \"3 Minutes Tesis\" (3MT) ocorrida VII SAAC, apresentando a ideia do ZoIA. A competição consiste em apresentar em apenas 3 minutos a sua proposta de dissertação, tese, projeto de pesquisa ou produto, testando as habilidades de comunicação dos envolvidos.",
+        "reference": {
+          "title": "Certificado de Premiação",
+          "link": "https://drive.google.com/file/d/1nMyYfnPsLv666-krubzbQZgByO1UTj0t/view?usp=sharing"
+        }
+      },
+      {
+        "title": "Aluna de Práticas de Ensino",
+        "situation": "",
+        "description": "Atuei como monitora de Práticas de Ensino durante minha graduação, nas disciplinas de Programação II (Programação Orientada à Objetos) e Percepção Computacional, propondo e corrigindo exercícios e outras atividades.",
+        "reference": null
+      }
+    ]
+  }
+}
