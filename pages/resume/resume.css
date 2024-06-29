@@ -122,5 +122,10 @@ ul {
 }
 
 section h3 {
-  margin-bottom: 1.8rem;
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  text-align: justify;
 }
