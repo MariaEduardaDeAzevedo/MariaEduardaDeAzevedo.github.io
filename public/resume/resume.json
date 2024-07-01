@@ -79,7 +79,7 @@
       {
         "title": "Desenvolvedora IA e full-stack em Projeto de Pesquisa e Desenvolvimento",
         "company": "Laboratório de Computação Inteligente Aplicada - LACINA",
-        "description": "Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com multinacional do setor de produtos e serviços em tecnologia, com o objetico de desenvolver solução interna para o setor de vendas. O projeto proporcionou explorar habilidades voltadas para Processamento de Arquivos PDF e Imagens, explorando técnicas de Processamento de Imagens e Textos com uso de modelos de Inteligência Artificial e Expressões Regulares. Além disso, houve o desenvolvimento ponta-à-ponta de uma Aplicação Web (frontend e backend) de uso interno, integrando a solução atingida.",
+        "description": "Projeto de Pesquisa, Desenvolvimento e Inovação em parceria com multinacional do setor de produtos e serviços em tecnologia, com o objetivo de desenvolver solução interna para o setor de vendas. O projeto proporcionou explorar habilidades voltadas para Processamento de Arquivos PDF e Imagens, explorando técnicas de Processamento de Imagens e Textos com uso de modelos de Inteligência Artificial e Expressões Regulares. Além disso, houve o desenvolvimento ponta-à-ponta de uma Aplicação Web (frontend e backend) de uso interno, integrando a solução atingida.",
         "time": {
           "from": "Junho 2023",
           "to": "Maio 2024"
@@ -117,7 +117,7 @@
       {
         "title": "Vencedora da Competição 3MT na Semana Acadêmica de Ciência da Computação",
         "situation": "Semana Acadêmica de Ciência da Computação - SACC",
-        "description": "Pude colocar à prova minhas habilidades de comunicação na competição \"3 Minutes Tesis\" (3MT) ocorrida VII SAAC, apresentando a ideia do ZoIA. A competição consiste em apresentar em apenas 3 minutos a sua proposta de dissertação, tese, projeto de pesquisa ou produto, testando as habilidades de comunicação dos envolvidos.",
+        "description": "Pude colocar à prova minhas habilidades de comunicação na competição \"3 Minutes Thesis\" (3MT) ocorrida na VII SAAC do curso de Ciência da Computação da UFCG, apresentando a ideia do ZoIA. A competição consiste em apresentar em apenas 3 minutos a sua proposta de dissertação, tese, projeto de pesquisa ou produto, testando as habilidades de comunicação dos participantes.",
         "reference": {
           "title": "Certificado de Premiação",
           "link": "https://drive.google.com/file/d/1nMyYfnPsLv666-krubzbQZgByO1UTj0t/view?usp=sharing"
@@ -125,7 +125,7 @@
       },
       {
         "title": "Aluna de Práticas de Ensino",
-        "situation": "",
+        "situation": "Atuação na Graduação",
         "description": "Atuei como monitora de Práticas de Ensino durante minha graduação, nas disciplinas de Programação II (Programação Orientada à Objetos) e Percepção Computacional, propondo e corrigindo exercícios e outras atividades.",
         "reference": null
       }
